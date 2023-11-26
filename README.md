@@ -7,7 +7,9 @@
 
 **1) Use two ATmega32 Microcontrollers with frequency *8Mhz***.
 **2) The project should be design and implemented based on the layered architecture model as follow:**
+> [!NOTE]
 > ℳc1 → HMI_ECU **(Human Machine Interface)** with 2x16 LCD and 4x4 keypad.
+>
 > ℳc2 → Control_ECU with EEPROM, Buzzer, and Dc-Motor.
 
 3)HMI_ECU is just responsible interaction with the user just take inputs through keypad and display 
