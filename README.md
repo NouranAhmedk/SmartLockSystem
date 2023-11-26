@@ -139,6 +139,7 @@
 >    UART_StopBit stop-bit;
 >    UART_BaudRate baud-rate; 
 >   }UART_ConfigType;
+> ```
 >The UART_BitData, UART_Parity, UART_StopBit, and UART_BaudRate are types defined as uint8/uint16/uint32 or enum.
 
 **Timer Driver Requirements**
