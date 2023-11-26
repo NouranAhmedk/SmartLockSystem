@@ -9,9 +9,11 @@
 **2) The project should be design and implemented based on the layered architecture model as follow:**
 > [!NOTE]
 > ℳc1 → **HMI_ECU** *(Human Machine Interface)* with 2x16 LCD and 4x4 keypad.
+> 
 > <img width="432" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/64ad2ebe-8426-4f93-8e67-aa8839222d77">
 >
 > ℳc2 → **Control_ECU** with EEPROM, Buzzer, and Dc-Motor.
+> 
 > <img width="446" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/f76544a9-bd30-47c4-a3b8-61b51edf33ef">
 
 
