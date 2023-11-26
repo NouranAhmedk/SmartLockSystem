@@ -52,10 +52,10 @@
 >    - Enter the password then press enter button (choose any button in the keypad as enter button). 
 >    - **HMI_ECU** should send the Password to the **Control_ECU** and it should compare it with the one saved in the **EEPROM**.
 >    - if two passwords are **matched**:
->     • rotates motor for 15-seconds CW and display a message on the screen 
+>       - rotates motor for 15-seconds CW and display a message on the screen 
 >      “Door is Unlocking”
->     • hold the motor for 3-seconds.
->     • rotates motor for 15-seconds A-CW and display a message on the screen 
+>       - hold the motor for 3-seconds.
+>       - rotates motor for 15-seconds A-CW and display a message on the screen 
 >      “Door is Locking”
 
 Step 4 - Change Password -
