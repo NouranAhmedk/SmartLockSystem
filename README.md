@@ -8,15 +8,18 @@
 **1) Use two ATmega32 Microcontrollers with frequency *8Mhz***.
 **2) The project should be design and implemented based on the layered architecture model as follow:**
 > [!NOTE]
-> ℳc1 → HMI_ECU **(Human Machine Interface)** with 2x16 LCD and 4x4 keypad.
->
-> ℳc2 → Control_ECU with EEPROM, Buzzer, and Dc-Motor.
+> ℳc1 → **HMI_ECU** *(Human Machine Interface)* with 2x16 LCD and 4x4 keypad.
+> <img width="432" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/64ad2ebe-8426-4f93-8e67-aa8839222d77">
 
-3)HMI_ECU is just responsible interaction with the user just take inputs through keypad and display 
-messages on the LCD.
-4)CONTROL_ECU is responsible for all the processing and decisions in the system like password 
-checking, open the door and activate the system alarm.
-5)System Sequence:
+> ℳc2 → **Control_ECU** with EEPROM, Buzzer, and Dc-Motor.
+> <img width="446" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/f76544a9-bd30-47c4-a3b8-61b51edf33ef">
+
+
+**3)HMI_ECU is just responsible interaction with the user just take inputs through keypad and display messages on the LCD.**
+
+**4)CONTROL_ECU is responsible for all the processing and decisions in the system like password checking, open the door and activate the system alarm.**
+
+**5)System Sequence:**
 Step1 – Create a System Password
 - The LCD should display “Please Enter Password” like that:
 - Enter a password consists of 5 numbers, Display * in the screen for each number. 
