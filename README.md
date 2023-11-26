@@ -1,5 +1,5 @@
 # SmartLockSystem
-## Finial Project
+## Final Project
 
 > [!IMPORTANT]
 > - System Requirements
@@ -41,14 +41,16 @@
 >   - If the two passwords are unmatched then repeat **step 1** again.
 
 > - **Step2 - Main Options**
-- The LCD will always display the main system option:
-Step3 - Open Door +
-- The LCD should display “Please Enter Password” like that:
-- Enter the password then press enter button (choose any button in the keypad as 
-enter button). 
-- HMI_ECU should send the Password to the Control_ECU and it should compare it 
-with the one saved in the EEPROM.
-- if two passwords are matched:
+>    - The LCD will always display the main system option:
+>        <img width="358" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/051e5b32-aedc-4c0f-a154-d4814a705b70">
+
+> - **Step3 - Open Door +**
+>    - The LCD should display “Please Enter Password” like that:
+>    - Enter the password then press enter button (choose any button in the keypad as enter button). 
+>    - HMI_ECU should send the Password to the Control_ECU and it should compare it with the one saved in the EEPROM.
+>    - if two passwords are matched:
+>        <img width="356" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/536f1fcd-f9d8-4648-b118-95802af19fc9">
+
 • rotates motor for 15-seconds CW and display a message on the screen 
 “Door is Unlocking”
 • hold the motor for 3-seconds.
