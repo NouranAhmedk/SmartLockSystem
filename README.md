@@ -165,14 +165,14 @@
 >                  - Inputs: pointer to Call Back function.
 >                  - Return: None
 > 7. The Timer1_ConfigType structure should be declared like that:
->    ```
+> ```
 >    typedef struct { 
 >     uint16 initial_value;
 >     uint16 compare_value; // it will be used in compare mode only.
 >     Timer1_Prescaler prescaler;
 >     Timer1_Mode mode;
 >   } Timer1_ConfigType;
->   ```
+> ```
 > The Timer1_Prescaler and Timer1_Mode are types defined as uint8 or enum.
 
 
