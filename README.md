@@ -149,17 +149,17 @@
 > 4. The Timer1 Driver should be designed using the Interrupts with the callback’s technique.
 > 5. The Timer1 Driver should support both normal and compare modes and it should be configured through the configuration structure passed to the init function.
 > 6. The Timer Driver has 3 functions and two ISR’s for Normal and Compare interrupts:
->   - a.void Timer1_init(const Timer1_ConfigType * Config_Ptr)
+>   -  ```a.void Timer1_init(const Timer1_ConfigType * Config_Ptr)```
 >       - Description
 >          - Function to initialize the Timer driver
 >          - Inputs: pointer to the configuration structure with type Timer1_ConfigType.
 >              - Return: None
->   - b. void Timer1_deInit(void)
+>   - b. ```void Timer1_deInit(void)```
 >       - Description
 >            - Function to disable the Timer1.
 >                 - Inputs: None
 >                 - Return: None
->   - c. void Timer1_setCallBack(void(*a_ptr)(void));
+>   - c. ```void Timer1_setCallBack(void(*a_ptr)(void));```
 >       - Description
 >             - Function to set the Call Back function address.
 >                  - Inputs: pointer to Call Back function.
