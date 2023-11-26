@@ -22,19 +22,19 @@
 
 **4)CONTROL_ECU is responsible for all the processing and decisions in the system like password checking, open the door and activate the system alarm.**
 
-**5)System Sequence:**
-Step1 – Create a System Password
-- The LCD should display “Please Enter Password” like that:
-- Enter a password consists of 5 numbers, Display * in the screen for each number. 
-- Press enter button (choose any button in the keypad as enter button).
-- Ask the user to renter the same password for confirmation by display this message 
-“Please re-enter the same Pass”:
-- Enter a password consists of 5 numbers, Display * in the screen for each number. 
-- Press enter button (choose any button in the keypad as enter button).
-- HMI_ECU should send the two passwords to the Control_ECU through the UART.
-- If the two passwords are matched then the system has a password now and save it 
-inside the EEPORM and go to Step 2.
-- If the two passwords are unmatched then repeat step 1 again.
+### 5)System Sequence:
+> - **Step1– Create a System Password** 
+>   - The LCD should display *“Please Enter Password”* like that:
+>   - <img width="358" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/e4506c7f-3c19-4410-8d8e-323453790cb3">
+
+>   - Enter a password consists of 5 numbers, Display * in the screen for each number. 
+>   - Press enter button (choose any button in the keypad as enter button).
+>   - Ask the user to renter the same password for confirmation by display this message “Please re-enter the same Pass”:
+>   - Enter a password consists of 5 numbers, Display * in the screen for each number. 
+>   - Press enter button (choose any button in the keypad as enter button).
+>   - HMI_ECU should send the two passwords to the Control_ECU through the UART.
+>   - If the two passwords are matched then the system has a password now and save it inside the EEPORM and go to Step 2.
+>   - If the two passwords are unmatched then repeat step 1 again.
 Step2 - Main Options
 - The LCD will always display the main system option:
 Step3 - Open Door +
