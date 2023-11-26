@@ -52,13 +52,11 @@
 >    - Enter the password then press enter button (choose any button in the keypad as enter button). 
 >    - **HMI_ECU** should send the Password to the **Control_ECU** and it should compare it with the one saved in the **EEPROM**.
 >    - if two passwords are **matched**:
->       - rotates motor for 15-seconds CW and display a message on the screen 
->      “Door is Unlocking”
->       - hold the motor for 3-seconds.
->       - rotates motor for 15-seconds A-CW and display a message on the screen 
->      “Door is Locking”
+>       - rotates motor for **15-seconds CW** and display a message on the screen **“Door is Unlocking”**
+>       - hold the motor for **3-seconds.**
+>       - rotates motor for **15-seconds A-CW** and display a message on the screen  **“Door is Locking”**
 
-Step 4 - Change Password -
+> - **Step 4 - Change Password -**
 - The LCD should display “Please Enter Password” like that:
 -
 - Enter the password then press enter button (choose any button in the keypad as 
@@ -88,6 +86,10 @@ password.
 • System should be locked no inputs from Keypad will be accepted during 
 this time period.
 • Go to Step 2 the main options again.
+
+
+
+
  GPIO Driver Requirements
 1. Use the Same GPIO driver implemented in the course.
 2. Same driver should be used in the two ECUs.
