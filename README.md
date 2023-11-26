@@ -57,38 +57,29 @@
 >       - rotates motor for **15-seconds A-CW** and display a message on the screen  **“Door is Locking”**
 
 > - **Step 4 - Change Password -**
-- The LCD should display “Please Enter Password” like that:
--
-- Enter the password then press enter button (choose any button in the keypad as 
-enter button). 
-- HMI_ECU should send the Password to the Control_ECU and it should compare it 
-with the one saved in the EEPROM.
-- if two passwords are matched:
-• Repeat Step 1.
-Step 5
-- if the two passwords are unmatched at step 3 (+ : Open Door) or step 4 (- : Change 
-Password)
-- Ask the user one more time for the password.
-- The LCD should display “Please Enter Password” like that:
-- Enter the password then press enter button (choose any button in the keypad as 
-enter button). 
-- HMI_ECU should send the password to the Control_ECU and it should compare it 
-with the one saved in the EEPROM.
-- if two passwords are matched then open the door or change the password in steps 
-3 and 4.
-- If the two passwords are not matched again then ask the user one last time for the 
-password.
-- if two passwords are matched then open the door or change the password in steps 
-3 and 4.
-- If the two passwords are not matched for the third consecutive time, then:
-• Activate Buzzer for 1-minute.
-• Display error message on LCD for 1 minute.
-• System should be locked no inputs from Keypad will be accepted during 
-this time period.
-• Go to Step 2 the main options again.
+>    - The LCD should display “Please Enter Password” like that:
+>    - Enter the password then press enter button (choose any button in the keypad as enter button).
+>    - HMI_ECU should send the Password to the Control_ECU and it should compare it with the one saved in the EEPROM.
+>    - if two passwords are matched:
+>        -  Repeat Step 1.
 
-
-
+> - **Step 5**
+>    - if the two passwords are unmatched at step 3 (+ : Open Door) or step 4 (- : Change Password)
+>    - Ask the user one more time for the password.
+>    - The LCD should display “Please Enter Password” like that:
+>      
+>        <img width="358" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/b1856291-49a8-48fd-a594-ca84fea35e98">
+>    - Enter the password then press **enter** button (choose any button in the keypad as enter button). 
+>    - **HMI_ECU** should send the password to the **Control_ECU** and it should compare it with the one saved in the **EEPROM**.
+>    - if two passwords are matched then open the door or change the password in steps 3 and 4.
+>    - If the two passwords are not matched again then ask the user one last time for the password.
+>    - if two passwords are matched then open the door or change the password in steps 3 and 4.
+>    - If the two passwords are not matched for the third consecutive time, then:
+>        - Activate Buzzer for 1-minute.
+>        - Display error message on LCD for 1 minute.
+>        - System should be locked no inputs from Keypad will be accepted during this time period.
+>        - Go to Step 2 the main options again.
+ 
 
  GPIO Driver Requirements
 1. Use the Same GPIO driver implemented in the course.
