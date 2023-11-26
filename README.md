@@ -200,4 +200,5 @@
 >             - Return: No
 
 ## The Project Hardware Connections
-<img width="642" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/5b717f3d-7f7f-424a-8b2e-f39a0e58fe01">
+<img width="628" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/edc279bc-710b-4e70-bc1f-512b7a7b63e3">
+
