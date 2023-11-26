@@ -199,5 +199,5 @@
 >             - Inputs: None
 >             - Return: No
 
-## Project Connections 
+## The Project Hardware Connections
 <img width="642" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/5b717f3d-7f7f-424a-8b2e-f39a0e58fe01">
