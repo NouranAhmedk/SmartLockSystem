@@ -26,13 +26,13 @@
 > - **Step1– Create a System Password** 
 >   - The LCD should display *“Please Enter Password”* like that:
 >     
->   <img width="358" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/e4506c7f-3c19-4410-8d8e-323453790cb3">
+>      <img width="358" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/e4506c7f-3c19-4410-8d8e-323453790cb3">
 >   - Enter a password consists of 5 numbers, Display * in the screen for each number.
 >   - <img width="365" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/82d276ae-8a0c-4c8e-b447-e2b86f24892c">
 >   - Press **enter** button *(choose any button in the keypad as enter button)*.
 >   - Ask the user to renter the same password for confirmation by display this message “Please re-enter the same Pass”:
 >
->    <img width="364" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/ffe60292-80b5-4088-821d-2f847f6aa27e">
+>      <img width="364" alt="image" src="https://github.com/NouranAhmedk/SmartLockSystem/assets/105202599/ffe60292-80b5-4088-821d-2f847f6aa27e">
 >   - Enter a password consists of 5 numbers, Display * in the screen for each number. 
 >   - Press enter button (choose any button in the keypad as enter button).
 >   - HMI_ECU should send the two passwords to the Control_ECU through the UART.
